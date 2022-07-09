@@ -5,11 +5,13 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 
 if (num1 > num2)
 {
-    Console.WriteLine("Первое число больше второго");
+    Console.WriteLine("Большее число");
+    Console.WriteLine(num1);
 }
 else if (num1 < num2)
 {
-    Console.WriteLine("Первое число меньше второго");
+    Console.WriteLine("Большее число");
+    Console.WriteLine(num2);
 }
 else
 {
